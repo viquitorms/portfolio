@@ -11,8 +11,18 @@ function App() {
         <div className="drawer-content flex flex-col">
           <Header />
           <main>
-            <MainBlock />
-            <MainBlock />
+            <div>
+              <MainBlock />
+              <MainBlock />
+            </div>
+            <div className="fixed flex flex-col justify-center top-1/3 right-20">
+              <ul>
+                <li className="step">-</li>
+                <li className="step">-</li>
+                <li className="step">-</li>
+                <li className="step">-</li>
+              </ul>
+            </div>
           </main>
         </div>
         <DrawerSide />
