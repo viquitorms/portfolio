@@ -1,12 +1,12 @@
-export default function MainBlock() {
+export default function SkillsBlock() {
     return (
-        <div id="main" className="min-h-screen flex flex-col justify-center">
+        <div id="skills" className="min-h-screen flex flex-col justify-center">
             <div className="flex">
                 <div className="hero">
                     <div className="hero-content flex-col lg:flex-row gap-8">
                         <img
                             src="/images/my-draw-transparent.png"
-                            className="max-w-80 rounded-full animate-spin animate-duration-[5000ms] animate-ease-in-out"
+                            className="max-w-80 rounded-full animate-bounce animate-ease-in-out"
                         />
                         <div>
                             <div className="flex flex-col gap-2">

@@ -1,6 +1,9 @@
 import MainBlock from "./blocks/MainBlock"
+import ProjectsBlock from "./blocks/ProjectsBlock"
+import SkillsBlock from "./blocks/SkillsBlock"
 import DrawerSide from "./components/organisms/DrawerSide"
 import Header from "./components/organisms/Header"
+import SideNavigation from "./components/organisms/SideNavigation"
 
 function App() {
 
@@ -13,16 +16,10 @@ function App() {
           <main>
             <div>
               <MainBlock />
-              <MainBlock />
+              <SkillsBlock />
+              <ProjectsBlock />
             </div>
-            <div className="fixed flex flex-col justify-center top-1/3 right-20">
-              <ul>
-                <li className="step">-</li>
-                <li className="step">-</li>
-                <li className="step">-</li>
-                <li className="step">-</li>
-              </ul>
-            </div>
+            <SideNavigation />
           </main>
         </div>
         <DrawerSide />

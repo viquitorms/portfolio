@@ -1,6 +1,6 @@
 export default function Header() {
     return (
-        <div className="navbar w-full fixed z-50">
+        <div className="navbar bg-inherit w-full fixed z-50">
             <div className="flex-none lg:hidden">
                 <label htmlFor="my-drawer-3" aria-label="open sidebar" className="btn btn-square btn-ghost">
                     <svg
@@ -25,7 +25,7 @@ export default function Header() {
                     <li><a>Sobre mim</a></li>
                     <li><a>Projetos</a></li>
                     <li><a>Contatos</a></li>
-                    <li><a>GitHub</a></li>
+                    <li><a href="https://github.com/viquitorms">GitHub</a></li>
                 </ul>
             </div>
             <label className="swap swap-rotate">
