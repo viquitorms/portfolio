@@ -1,3 +1,5 @@
+import Pages from "../../data/Pages.json"
+
 export default function Header() {
     return (
         <div className="navbar bg-inherit w-full fixed z-50">
@@ -21,11 +23,11 @@ export default function Header() {
             <div className="mx-2 flex-1 px-2 font-bold">Victor Magalhães</div>
             <div className="hidden flex-none lg:block">
                 <ul className="menu menu-horizontal">
-                    {/* Navbar menu content here */}
-                    <li><a>Sobre mim</a></li>
-                    <li><a>Projetos</a></li>
-                    <li><a>Contatos</a></li>
-                    <li><a href="https://github.com/viquitorms">GitHub</a></li>
+                    {
+                        Pages.map((page) => {
+                            return <li><a href={page.href} target={page.target}>{page.name}</a></li>
+                        })
+                    }
                 </ul>
             </div>
             <label className="swap swap-rotate">
