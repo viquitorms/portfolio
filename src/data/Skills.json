@@ -1,17 +1,41 @@
-[
-    {
-        "name": "React.js",
-        "description": "Javascript library",
-        "image": "/images/Skills/frontend/React.png"
-    },     
-    {
-        "name": "Blazor",
-        "description": "Microsoft",
-        "image": "/images/Skills/frontend/Blazor.png"
-    },
-    {
-        "name": "TypeScript",
-        "description": "TypeScript",
-        "image": "/images/Skills/frontend/TypeScript.png"
-    }
-]
+{
+    "frontend": [
+        {
+            "name": "React.js",
+            "description": "Javascript library",
+            "image": "/images/Skills/frontend/React.png"
+        },
+        {
+            "name": "Blazor",
+            "description": "Microsoft",
+            "image": "/images/Skills/frontend/Blazor.png"
+        },
+        {
+            "name": "TypeScript",
+            "description": "TypeScript",
+            "image": "/images/Skills/frontend/TypeScript.png"
+        },
+        {
+            "name": "TypeScript",
+            "description": "TypeScript",
+            "image": "/images/Skills/frontend/TypeScript.png"
+        }
+    ],
+    "backend": [
+        {
+            "name": "React.js",
+            "description": "Javascript library",
+            "image": "/images/Skills/frontend/React.png"
+        },
+        {
+            "name": "Blazor",
+            "description": "Microsoft",
+            "image": "/images/Skills/frontend/Blazor.png"
+        },
+        {
+            "name": "TypeScript",
+            "description": "TypeScript",
+            "image": "/images/Skills/frontend/TypeScript.png"
+        }
+    ]
+}
