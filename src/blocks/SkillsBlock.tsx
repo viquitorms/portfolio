@@ -1,26 +1,18 @@
+import Skills from "../data/Skills.json"
+
 export default function SkillsBlock() {
     return (
         <div id="skills" className="min-h-screen flex flex-col justify-center">
-            <div className="flex">
-                <div className="hero">
-                    <div className="hero-content flex-col lg:flex-row gap-8">
-                        <img
-                            src="/images/my-draw-transparent.png"
-                            className="max-w-80 rounded-full animate-bounce animate-ease-in-out"
-                        />
-                        <div>
-                            <div className="flex flex-col gap-2">
-                                <h1 className="text-5xl font-bold">Victor Magalhães</h1>
-                                <h1 className="text-2xl font-bold text-gray-400">React & Blazor Front-End Developer</h1>
-                            </div>
+            <div className="flex flex-row gap-5">
+                {
+                    Skills.map((skill) => {
+                        return (
                             <div>
-                                <p className="py-6">
-                                    I am a React and Blazor Front-End Developer and also an university student who loves Graphic Design and Computation. My main working style involves building modern user interfaces, exploring creativity and usability Graphic Design principles to create dynamic and modularized applications with reusable, clean, atomic and customized components.
-                                </p>
+                                <img className="grayscale hover:grayscale-0 transition duration-300" src={skill.image} width={50} />
                             </div>
-                        </div>
-                    </div>
-                </div>
+                        )
+                    })
+                }
             </div>
         </div>
     );
