@@ -2,7 +2,7 @@ import Pages from "../../data/Pages.json"
 
 export default function Header() {
     return (
-        <div className="navbar bg-inherit w-full fixed z-50">
+        <div className="navbar bg-base-100 fixed w-full z-50">
             <div className="flex-none lg:hidden">
                 <label htmlFor="my-drawer-3" aria-label="open sidebar" className="btn btn-square btn-ghost">
                     <svg

@@ -16,26 +16,111 @@
             "image": "/images/Skills/frontend/TypeScript.png"
         },
         {
-            "name": "TypeScript",
-            "description": "TypeScript",
-            "image": "/images/Skills/frontend/TypeScript.png"
+            "name": "JavaScript",
+            "description": "JavaScript",
+            "image": "/images/Skills/frontend/JavaScript.png"
+        },
+        {
+            "name": "HTML",
+            "description": "HTML",
+            "image": "/images/Skills/frontend/HTML5.png"
+        },
+        {
+            "name": "CSS3",
+            "description": "CSS3",
+            "image": "/images/Skills/frontend/CSS3.png"
+        },
+        {
+            "name": "Tailwind CSS",
+            "description": "Tailwind CSS",
+            "image": "/images/Skills/frontend/Tailwind.png"
+        },
+        {
+            "name": "Material UI",
+            "description": "Material UI",
+            "image": "/images/Skills/frontend/MaterialUI.png"
+        },
+        {
+            "name": "MudBlazor",
+            "description": "MudBlazor",
+            "image": "/images/Skills/frontend/MudBlazor.png"
+        },
+        {
+            "name": "Bootstrap",
+            "description": "Bootstrap",
+            "image": "/images/Skills/frontend/Bootstrap.png"
+        },
+        {
+            "name": "Silverlight",
+            "description": "Silverlight",
+            "image": "/images/Skills/frontend/Silverlight.png"
+        },
+        {
+            "name": "Node.js",
+            "description": "Node.js",
+            "image": "/images/Skills/frontend/Node.js.png"
+        },
+        {
+            "name": "Vite.js",
+            "description": "Vite.js",
+            "image": "/images/Skills/frontend/Vite.js.png"
         }
     ],
     "backend": [
         {
-            "name": "React.js",
-            "description": "Javascript library",
-            "image": "/images/Skills/frontend/React.png"
+            "name": "CSharp",
+            "description": "C#",
+            "image": "/images/Skills/backend/CSharp.png"
         },
         {
-            "name": "Blazor",
+            "name": ".NET Core",
             "description": "Microsoft",
-            "image": "/images/Skills/frontend/Blazor.png"
+            "image": "/images/Skills/backend/NETcore.png"
         },
         {
-            "name": "TypeScript",
-            "description": "TypeScript",
-            "image": "/images/Skills/frontend/TypeScript.png"
+            "name": "SQL Developer",
+            "description": "SQL Developer",
+            "image": "/images/Skills/backend/SQLDeveloper.png"
+        },
+        {
+            "name": "SQL Server",
+            "description": "SQL Server",
+            "image": "/images/Skills/backend/SQLServer.png"
+        },
+        {
+            "name": "Azure Devops",
+            "description": "Azure Devops",
+            "image": "/images/Skills/backend/AzureDevops.png"
+        },
+        {
+            "name": "Azure SQL Database",
+            "description": "Azure SQL Database",
+            "image": "/images/Skills/backend/AzureSQLDatabase.png"
+        },
+        {
+            "name": "OpenAPI",
+            "description": "OpenAPI",
+            "image": "/images/Skills/backend/OpenAPI.png"
+        },
+        {
+            "name": "Swagger",
+            "description": "Swagger",
+            "image": "/images/Skills/backend/Swagger.png"
+        },
+        {
+            "name": "Postman",
+            "description": "Postman",
+            "image": "/images/Skills/backend/Postman.png"
+        },
+        {
+            "name": "Insomnia",
+            "description": "Insomnia",
+            "image": "/images/Skills/backend/Insomnia.png"
+        },
+        {
+            "name": "JSON",
+            "description": "JSON",
+            "image": "/images/Skills/backend/JSON.png"
         }
     ]
 }
