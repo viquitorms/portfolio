@@ -13,7 +13,7 @@ export default function MainLayout(props: IMainLayout) {
             <input id="my-drawer-3" type="checkbox" className="drawer-toggle" />
             <div className="drawer-content flex flex-col">
                 <Header />
-                <main className="p-20">
+                <main className="p-10">
                     {props.children}
                     <SideNavigation />
                 </main>

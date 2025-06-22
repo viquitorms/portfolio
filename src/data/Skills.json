@@ -1,5 +1,5 @@
 {
-    "frontend": [
+    "Front End": [
         {
             "name": "React.js",
             "description": "Javascript library",
@@ -56,17 +56,12 @@
             "image": "/images/Skills/frontend/Silverlight.png"
         },
         {
-            "name": "Node.js",
-            "description": "Node.js",
-            "image": "/images/Skills/frontend/Node.js.png"
-        },
-        {
             "name": "Vite.js",
             "description": "Vite.js",
             "image": "/images/Skills/frontend/Vite.js.png"
         }
     ],
-    "backend": [
+    "Back End": [
         {
             "name": "CSharp",
             "description": "C#",
@@ -121,6 +116,85 @@
             "name": "JSON",
             "description": "JSON",
             "image": "/images/Skills/backend/JSON.png"
+        },
+        {
+            "name": "Node.js",
+            "description": "Node.js",
+            "image": "/images/Skills/backend/Node.js.png"
+        }
+    ],
+    "Graphic Design": [
+        {
+            "name": "Affinity Designer",
+            "description": "Affinity Designer",
+            "image": "/images/Skills/design/AffinityDesigner.png"
+        },
+        {
+            "name": "Affinity Photo",
+            "description": "Affinity Photo",
+            "image": "/images/Skills/design/AffinityPhoto.png"
+        },
+        {
+            "name": "Figma",
+            "description": "Figma",
+            "image": "/images/Skills/design/Figma.png"
+        },
+        {
+            "name": "Balsamiq",
+            "description": "Balsamiq",
+            "image": "/images/Skills/design/Balsamiq.png"
+        },
+        {
+            "name": "UML",
+            "description": "UML",
+            "image": "/images/Skills/design/UML.png"
+        }
+    ],
+    "Versioning & Documentation": [
+        {
+            "name": "Git",
+            "description": "Git",
+            "image": "/images/Skills/versioning/Git.png"
+        },
+        {
+            "name": "GitHub",
+            "description": "GitHub",
+            "image": "/images/Skills/versioning/GitHub.png"
+        },
+        {
+            "name": "NPM",
+            "description": "NPM",
+            "image": "/images/Skills/versioning/NPM.png"
+        },
+        {
+            "name": "Trello",
+            "description": "Trello",
+            "image": "/images/Skills/versioning/Trello.png"
+        },
+        {
+            "name": "Docusaurus",
+            "description": "Docusaurus",
+            "image": "/images/Skills/versioning/Docusaurus.png"
+        },
+        {
+            "name": "TinaCMS",
+            "description": "TinaCMS",
+            "image": "/images/Skills/versioning/TinaCMS.png"
+        },
+        {
+            "name": "Redmine",
+            "description": "Redmine",
+            "image": "/images/Skills/versioning/Redmine.png"
+        },
+        {
+            "name": "Markdown",
+            "description": "Markdown",
+            "image": "/images/Skills/versioning/Markdown.png"
+        },
+        {
+            "name": "TortoiseGit",
+            "description": "TortoiseGit",
+            "image": "/images/Skills/versioning/TortoiseGit.png"
         }
     ]
 }
