@@ -60,13 +60,5 @@ export const Modules = [
       { name: "Markdown", description: "Lightweight markup language for documentation.", image: "/images/Skills/versioning/Markdown.png" },
       { name: "TortoiseGit", description: "Windows GUI for managing Git repositories.", image: "/images/Skills/versioning/TortoiseGit.png" }
     ]
-  },
-
-  {
-    name: "Others",
-    description: "Tools for source control, project tracking, and technical documentation.",
-    items: [
-      { name: "Unity", description: "Distributed version control system for code.", image: "/images/Skills/others/Unity.png" },
-    ]
   }
 ];
