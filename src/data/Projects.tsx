@@ -10,13 +10,13 @@ export const Modules = [
         ]
     },
     {
-        name: "Contagem Ativa",
-        description: "A responsive app and website to control students from a social program of Contagem city hall.",
-        image: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%2Fid%2FOIP.A96BfCRZQd_YNaN1TQMnhAHaEK%3Fr%3D0%26pid%3DApi&f=1&ipt=e3c19da624b9a940c475dd7afdcb973496db347ddd61a8263b1338d6dd92123e&ipo=images",
+        name: "Portfolio",
+        description: "My personal portfolio website, built with React and DaisyUI.",
+        image: "/images/projects/portfolio.png",
         frames: [
             { name: "React" },
             { name: "DaisyUI" },
-            { name: "Azure DB" },
+            { name: "Netlify" },
         ]
     },
 ]
