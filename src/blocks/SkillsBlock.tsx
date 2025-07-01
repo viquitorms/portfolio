@@ -3,7 +3,7 @@ import { Modules } from "../data/Skills";
 export default function SkillsBlock() {
 
     return (
-        <div id="skills" className="flex flex-col items-center gap-10">
+        <div id="skills" className="min-h-screen flex flex-col items-center justify-center gap-10">
 
             <div className="flex flex-col items-center gap-3">
                 <h1 className="text-5xl font-bold">Skills & Frameworks</h1>
@@ -13,7 +13,7 @@ export default function SkillsBlock() {
             <div className="items-start grid grid-cols-1 md:grid-cols-2 gap-5">
                 {
                     Modules.map((module) => (
-                        <div key={module.name} className="border-2 border-gray-200 dark:border-red-600 p-8 min-h-20">
+                        <div key={module.name} className="border-1 border-gray-600 rounded-2xl p-8 min-h-20">
 
                             <div className="flex flex-col mb-5 gap-3">
                                 <h1 className="text-2xl font-bold">{module.name}</h1>
