@@ -18,13 +18,14 @@ export default function ProjectsBlock() {
                                 <img
                                     src={module.image}
                                     alt="Shoes"
-                                    width={200}
-                                    className="h-56 w-96" />
+                                    className="h-50 w-96" />
                             </figure>
                             <div className="card-body">
-                                <h2 className="card-title">
-                                    {module.name}
-                                </h2>
+                                <a className="hover:link" href={module.href} target="_blank">
+                                    <h2 className="card-title">
+                                        {module.name}
+                                    </h2>
+                                </a>
                                 <p>{module.description}</p>
                                 <div className="card-actions justify-end">
                                     {
