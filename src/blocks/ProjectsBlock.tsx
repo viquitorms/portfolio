@@ -18,7 +18,7 @@ export default function ProjectsBlock() {
                                 <img
                                     src={module.image}
                                     alt="Shoes"
-                                    className="h-50 w-96" />
+                                    className="h-51 w-90" />
                             </figure>
                             <div className="card-body">
                                 <a className="hover:link" href={module.href} target="_blank">
