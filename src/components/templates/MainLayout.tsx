@@ -2,6 +2,7 @@ import type { ReactNode } from "react";
 import DrawerSide from "../organisms/DrawerSide";
 import Header from "../organisms/Header";
 import SideNavigation from "../organisms/SideNavigation";
+import Footer from "../../blocks/FooterBlock";
 
 interface IMainLayout {
     children: ReactNode;
@@ -19,6 +20,7 @@ export default function MainLayout(props: IMainLayout) {
                     </div>
                     <SideNavigation />
                 </main>
+                <Footer />
                 <DrawerSide />
             </div>
         </div>
