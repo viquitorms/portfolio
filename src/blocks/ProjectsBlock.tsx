@@ -12,19 +12,19 @@ export default function ProjectsBlock() {
             <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-10 justify-center">
                 {
                     Modules.map((module) => (
-
-                        <div className="card bg-base-100 w-full md:w-70 xl:w-90 shadow-sm">
+                        <div className="card w-full md:w-70 xl:w-90 shadow-lg">
                             <figure>
                                 <img
                                     src={module.image}
                                     alt="Shoes"
-                                    width={200}
-                                    className="h-56 w-96" />
+                                    className="h-51 w-90" />
                             </figure>
                             <div className="card-body">
-                                <h2 className="card-title">
-                                    {module.name}
-                                </h2>
+                                <a className="hover:link" href={module.href} target="_blank">
+                                    <h2 className="card-title">
+                                        {module.name}
+                                    </h2>
+                                </a>
                                 <p>{module.description}</p>
                                 <div className="card-actions justify-end">
                                     {
@@ -35,7 +35,6 @@ export default function ProjectsBlock() {
                                 </div>
                             </div>
                         </div>
-
                     ))
                 }
             </div>

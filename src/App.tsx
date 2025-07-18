@@ -1,7 +1,7 @@
-import MainBlock from "./blocks/MainBlock"
-import ProjectsBlock from "./blocks/ProjectsBlock"
-import SkillsBlock from "./blocks/SkillsBlock"
-import MainLayout from "./components/templates/MainLayout"
+import MainBlock from "./blocks/MainBlock.tsx"
+import ProjectsBlock from "./blocks/ProjectsBlock.tsx"
+import SkillsBlock from "./blocks/SkillsBlock.tsx"
+import MainLayout from "./components/templates/MainLayout.tsx"
 
 function App() {
 
