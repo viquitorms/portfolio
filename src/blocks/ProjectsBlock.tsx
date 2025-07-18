@@ -1,4 +1,4 @@
-import { Modules } from "../data/Projects";
+import { Modules } from "../data/Projects.js";
 
 export default function ProjectsBlock() {
     return (
