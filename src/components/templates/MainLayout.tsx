@@ -1,8 +1,8 @@
 import type { ReactNode } from "react";
-import DrawerSide from "../organisms/DrawerSide";
-import Header from "../organisms/Header";
-import SideNavigation from "../organisms/SideNavigation";
-import Footer from "../../blocks/FooterBlock";
+import DrawerSide from "../organisms/DrawerSide.tsx";
+import Header from "../organisms/Header.tsx";
+import SideNavigation from "../organisms/SideNavigation.tsx";
+import Footer from "../../blocks/FooterBlock.tsx";
 
 interface IMainLayout {
     children: ReactNode;
@@ -18,7 +18,7 @@ export default function MainLayout(props: IMainLayout) {
                     <div className="flex flex-col gap-20 px-10">
                         {props.children}
                     </div>
-                    <SideNavigation />
+                    {/* <SideNavigation /> */}
                 </main>
                 <Footer />
                 <DrawerSide />

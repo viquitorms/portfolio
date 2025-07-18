@@ -12,7 +12,7 @@ export default function ProjectsBlock() {
             <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-10 justify-center">
                 {
                     Modules.map((module) => (
-                        <div className="card bg-base-100 w-full md:w-70 xl:w-90 shadow-sm">
+                        <div className="card w-full md:w-70 xl:w-90 shadow-lg">
                             <figure>
                                 <img
                                     src={module.image}
