@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 
 const sections = [
     { id: "main", label: "Who's Victor?" },
@@ -8,7 +8,7 @@ const sections = [
 
 const SideNavigation = () => {
     const [activeSection, setActiveSection] = useState<string | null>(null);
-    const [isScrolled, setIsScrolled] = useState(false);
+    const [, setIsScrolled] = useState(false);
 
     useEffect(() => {
         const handleScroll = () => {

@@ -1,7 +1,6 @@
 import type { ReactNode } from "react";
 import DrawerSide from "../organisms/DrawerSide.tsx";
 import Header from "../organisms/Header.tsx";
-import SideNavigation from "../organisms/SideNavigation.tsx";
 import Footer from "../../blocks/FooterBlock.tsx";
 
 interface IMainLayout {
