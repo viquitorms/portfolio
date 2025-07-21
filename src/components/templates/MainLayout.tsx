@@ -1,7 +1,7 @@
 import type { ReactNode } from "react";
 import DrawerSide from "../organisms/DrawerSide.tsx";
 import Header from "../organisms/Header.tsx";
-import Footer from "../../blocks/FooterBlock.tsx";
+import Footer from "../../blocks/main/FooterBlock.tsx";
 
 interface IMainLayout {
     children: ReactNode;

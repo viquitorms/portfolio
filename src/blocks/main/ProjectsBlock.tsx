@@ -1,6 +1,14 @@
-import { Modules } from "../data/Projects.js";
+import { Navigate, useNavigate } from "react-router";
+import { Modules } from "../../data/Projects.js";
 
 export default function ProjectsBlock() {
+
+    function handleProjectClick(href: string) {
+        console.log("receba");
+        let navigate = useNavigate();
+        navigate(href);
+    }
+
     return (
         <div id="projects" className="min-h-screen flex flex-col items-center justify-center gap-10">
 
@@ -12,7 +20,7 @@ export default function ProjectsBlock() {
             <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-10 justify-center">
                 {
                     Modules.map((module) => (
-                        <div className="card w-full md:w-70 xl:w-90 shadow-lg">
+                        <div className="card w-full md:w-70 xl:w-90 shadow-lg" onClick={() => handleProjectClick(module.href)}>
                             <figure>
                                 <img
                                     src={module.image}
