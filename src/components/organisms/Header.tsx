@@ -1,4 +1,4 @@
-import { Pages } from "../../data/Pages";
+import { Pages } from "../../data/Pages.tsx";
 
 export default function Header() {
     return (

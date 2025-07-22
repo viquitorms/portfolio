@@ -8,5 +8,5 @@ export const Pages = [
         name: "GitHub",
         href: "https://github.com/viquitorms",
         target: "_blank"
-    }
+    },
 ]
