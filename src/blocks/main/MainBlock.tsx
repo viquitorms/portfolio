@@ -5,7 +5,7 @@ export default function MainBlock() {
                 <div className="hero">
                     <div className="hero-content flex-col lg:flex-row gap-8">
                         <img
-                            src="/portfolio/images/my-draw-transparent.png"
+                            src="/portfolio/images/avatar-bg.png"
                             className="max-w-80 rounded-full animate-spin animate-duration-[5000ms] animate-ease-in-out"
                         />
                         <div>

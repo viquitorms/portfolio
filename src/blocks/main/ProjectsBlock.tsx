@@ -1,9 +1,6 @@
-import { Navigate, useNavigate } from "react-router";
 import { Modules } from "../../data/Projects.js";
 
 export default function ProjectsBlock() {
-
-    const navigate = useNavigate();
 
     function handleProjectClick(
         e: React.MouseEvent<HTMLDivElement>,
