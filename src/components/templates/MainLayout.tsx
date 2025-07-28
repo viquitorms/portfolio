@@ -1,13 +1,9 @@
-import type { ReactNode } from "react";
+import { Outlet } from "react-router"; // <-- Import Outlet
 import DrawerSide from "../organisms/DrawerSide.tsx";
 import Header from "../organisms/Header.tsx";
 import Footer from "../../blocks/main/FooterBlock.tsx";
 
-interface IMainLayout {
-    children: ReactNode;
-}
-
-export default function MainLayout(props: IMainLayout) {
+export default function MainLayout() {
     return (
         <div className="drawer">
             <input id="my-drawer-3" type="checkbox" className="drawer-toggle" />
@@ -15,9 +11,8 @@ export default function MainLayout(props: IMainLayout) {
                 <Header />
                 <main>
                     <div className="flex flex-col gap-20 px-10">
-                        {props.children}
+                        <Outlet />
                     </div>
-                    {/* <SideNavigation /> */}
                 </main>
                 <Footer />
                 <DrawerSide />
