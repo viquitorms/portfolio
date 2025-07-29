@@ -5,7 +5,7 @@ export default function MainBlock() {
                 <div className="hero">
                     <div className="hero-content flex-col lg:flex-row gap-8">
                         <img
-                            src="/portfolio/images/avatar-bg.png"
+                            src="/images/avatar-bg.png"
                             className="max-w-80 rounded-full animate-spin animate-duration-[5000ms] animate-ease-in-out"
                         />
                         <div>
@@ -15,7 +15,7 @@ export default function MainBlock() {
                             </div>
                             <div>
                                 <p className="py-6">
-                                    I am a React and Blazor Front-End Developer and also an university student who loves Graphic Design and Computation. My main working style involves building modern user interfaces, exploring creativity and usability Graphic Design principles to create dynamic and modularized applications with reusable, clean, atomic and customized components.
+                                    Front-end Developer | React & Blazor
                                 </p>
                             </div>
                         </div>

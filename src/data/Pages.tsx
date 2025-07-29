@@ -1,5 +1,10 @@
 export const Pages = [
     {
+        name: "Home",
+        href: "/home",
+        target: "_self"
+    },
+    {
         name: "About me",
         href: "/aboutme",
         target: "_self"

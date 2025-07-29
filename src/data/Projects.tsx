@@ -2,7 +2,7 @@ export const Modules = [
     {
         name: "Contagem Ativa",
         description: "A responsive app and website to control students from a social program of Contagem city hall.",
-        image: "/portfolio/images/projects/contagemativa.png",
+        image: "/images/projects/contagemativa.png",
         href: "https://github.com/contagemativa/frontEnd",
         frames: [
             { name: "React" },
@@ -13,7 +13,7 @@ export const Modules = [
     {
         name: "Portfolio",
         description: "My personal portfolio website, built with React and DaisyUI.",
-        image: "/portfolio/images/projects/portfolio.png",
+        image: "/images/projects/portfolio.png",
         href: "https://github.com/viquitorms/portfolio",
         frames: [
             { name: "React" },
