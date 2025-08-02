@@ -1,4 +1,4 @@
-import Pages from "../../data/Pages.json"
+import { Pages } from "../../data/Pages.tsx"
 
 export default function DrawerSide() {
     return (

@@ -5,7 +5,7 @@ import { FaPinterestSquare } from "react-icons/fa";
 
 export default function Footer() {
     return (
-        <footer className="footer sm:footer-horizontal bg-base-200 text-base-content p-10">
+        <footer className="footer sm:footer-horizontal bg-base-100 text-base-content p-10">
             <nav>
                 <h6 className="footer-title">Pages</h6>
                 <a className="link link-hover">Contacts</a>

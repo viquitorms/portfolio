@@ -1,4 +1,4 @@
-import { Modules } from "../data/Skills";
+import { Modules } from "../../data/Skills";
 
 export default function SkillsBlock() {
 

@@ -1,18 +1,19 @@
-import MainBlock from "./blocks/MainBlock.tsx"
-import ProjectsBlock from "./blocks/ProjectsBlock.tsx"
-import SkillsBlock from "./blocks/SkillsBlock.tsx"
+import { BrowserRouter, Route, Routes } from "react-router"
 import MainLayout from "./components/templates/MainLayout.tsx"
+import AboutMe from "./components/pages/AboutMe.tsx"
+import Home from "./components/pages/Home.tsx"
 
 function App() {
 
   return (
-    <>
-      <MainLayout>
-        <MainBlock />
-        <SkillsBlock />
-        <ProjectsBlock />
-      </MainLayout>
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route element={<MainLayout />}>
+          <Route index path="/home" element={<Home />} />
+          <Route path="/aboutme" element={<AboutMe />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
   )
 }
 
