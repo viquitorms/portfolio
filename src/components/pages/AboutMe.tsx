@@ -25,6 +25,10 @@ interface AboutMe {
 // components/ProfileCard.jsx
 const ProfileCard = ({ name, title, avatar }: ProfileData) => {
 
+    const OnClickDownloadResume = () => {
+        window.location.href = `${window.location.origin}/src/assets/docs/curriculo-victor-magalhaes.pdf`
+    }
+
     return (
         <div className="bg-base-200 rounded-3xl p-8 flex flex-col items-center text-center">
             <div className="avatar mb-6">
@@ -37,7 +41,7 @@ const ProfileCard = ({ name, title, avatar }: ProfileData) => {
                 <h1 className="text-3xl font-bold text-base-content mb-2">{name}</h1>
                 <p className="text-base-content/70 text-md mb-4 text-left">{title}</p>
 
-                <button className="btn btn-outline btn-wide mt-8 gap-2">
+                <button className="btn btn-outline btn-wide mt-8 gap-2" onClick={OnClickDownloadResume}>
                     <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
                     </svg>
@@ -91,7 +95,7 @@ const Resume = () => {
     const profileData = {
         name: "Victor Magalhães",
         title: "Front-End Developer & Graphic Designer",
-        avatar: "/images/personal/foto-victor.jpg",
+        avatar: "src/assets/images/personal/foto-victor.jpg",
         contact: {
             email: "victormsouza@protonmail.com",
         }

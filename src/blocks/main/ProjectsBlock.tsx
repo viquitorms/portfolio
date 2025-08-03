@@ -21,12 +21,12 @@ export default function ProjectsBlock() {
             <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-10 justify-center">
                 {
                     Modules.map((module) => (
-                        <div className="card w-full md:w-70 xl:w-90 shadow-lg cursor-pointer" onClick={(e) => handleProjectClick(e, module.href)}>
+                        <div className="card w-full md:w-70 xl:w-90 py-5 border-1 border-base-content/50 cursor-pointer hover:transform-border hover:border-primary" onClick={(e) => handleProjectClick(e, module.href)}>
                             <figure>
                                 <img
                                     src={module.image}
                                     alt="Shoes"
-                                    className="h-51 w-90" />
+                                    className="h-51 w-90 rounded-4xl p-5" />
                             </figure>
                             <div className="card-body">
                                 <a className="hover:link" href={module.href} target="_blank">
