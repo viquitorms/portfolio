@@ -10,9 +10,9 @@ export default function Header() {
     return (
         <div className="flex flex-row p-2 justify-between sticky top-0 z-50 w-full bg-base-100">
             <div>
-                <a className="flex flex-row items-center text-xl font-bold gap-2 cursor-pointer" href="/home">
+                <a className="flex flex-row items-center text-xl font-bold gap-2 cursor-pointer" href="/">
                     <img
-                        src="/images/personal/avatar.png"
+                        src="/src/assets/images/personal/avatar.png"
                         className="max-w-10 rounded-full"
                     />
                     Victor Magalhães

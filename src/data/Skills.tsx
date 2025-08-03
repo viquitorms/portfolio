@@ -1,4 +1,4 @@
-const path = '/images'
+const path = 'src/assets/images/'
 
 export const Modules = [
   {
