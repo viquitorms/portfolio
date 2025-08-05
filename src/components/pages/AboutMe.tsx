@@ -132,7 +132,7 @@ const Resume = () => {
 	const profileData = {
 		name: "Victor Magalhães",
 		title: "Full Stack Developer & Graphic Designer",
-		avatar: "src/assets/images/personal/foto-victor.jpg",
+		avatar: "/portfolio/src/assets/images/personal/foto-victor.jpg",
 		contact: {
 			email: "victormsouza@protonmail.com",
 		}
