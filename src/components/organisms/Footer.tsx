@@ -1,7 +1,5 @@
-import { FaLinkedin } from "react-icons/fa";
-import { FaSquareInstagram } from "react-icons/fa6";
+import { FaLinkedin, FaStackOverflow } from "react-icons/fa";
 import { FaBehanceSquare } from "react-icons/fa";
-import { FaPinterestSquare } from "react-icons/fa";
 
 export default function Footer() {
     return (
@@ -20,9 +18,8 @@ export default function Footer() {
                     </div>
                     <div className="flex gap-2">
                         <a href="https://www.linkedin.com/in/victormagalhaesdesouza/" target="_blank"><FaLinkedin size={25} /></a>
-                        <a href="https://www.instagram.com/fromsilencetotheheart/" target="_blank"><FaSquareInstagram size={25} /></a>
                         <a href="https://www.behance.net/victormsouza" target="_blank"><FaBehanceSquare size={25} /></a>
-                        <a href="https://br.pinterest.com/vicmagalhaes20/" target="_blank"><FaPinterestSquare size={25} /></a>
+                        <a href="https://stackoverflow.com/users/19771727/victorsouza" target="_blank"><FaStackOverflow size={25} /></a>
                     </div>
                 </div>
             </nav>

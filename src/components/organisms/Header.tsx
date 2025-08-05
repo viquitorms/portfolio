@@ -61,8 +61,8 @@ function RenderLinksOnDrawer() {
 
 function MapLinks() {
     return (
-        Pages.map((page) => {
-            return <li><a href={page.href} target={page.target}>{page.name}</a></li>
+        Pages.map((page, key) => {
+            return <li><a key={key} href={page.href} target={page.target}>{page.name}</a></li>
         })
     )
 }

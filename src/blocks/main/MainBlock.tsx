@@ -11,7 +11,7 @@ export default function MainBlock() {
                         <div>
                             <div className="flex flex-col gap-2">
                                 <h1 className="text-6xl font-bold">Victor Magalhães</h1>
-                                <h1 className="text-2xl font-bold text-gray-400">Front-End Developer & Graphic Designer</h1>
+                                <h1 className="text-2xl font-bold text-gray-400">Full Stack Developer & Graphic Designer</h1>
                             </div>
                         </div>
                     </div>
