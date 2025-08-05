@@ -10,7 +10,7 @@ export default function MainLayout() {
             <div className="drawer-content flex flex-col items-center ">
                 <Header />
                 <main>
-                    <div className="flex flex-col gap-20">
+                    <div className="flex flex-col gap-20 px-5">
                         <Outlet />
                     </div>
                 </main>

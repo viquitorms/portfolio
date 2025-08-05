@@ -181,10 +181,10 @@ const Resume = () => {
 	];
 
 	return (
-		<div className="min-h-screen p-8">
+		<div className="min-h-screen">
 			<div className="max-w-7xl mx-auto">
-				<div className=" flex flex-col bg-base-100 rounded-3xl p-8 gap-5">
-					<div className="grid grid-cols-1 lg:grid-cols-12 gap-8">
+				<div className=" flex flex-col bg-base-100 rounded-3xl gap-5">
+					<div className="grid grid-cols-1 lg:grid-cols-12 gap-5">
 
 						{/* Profile Section */}
 						<div className="lg:col-span-4">

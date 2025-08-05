@@ -1,7 +1,5 @@
 import { FaLinkedin, FaStackOverflow } from "react-icons/fa";
-import { FaSquareInstagram } from "react-icons/fa6";
 import { FaBehanceSquare } from "react-icons/fa";
-import { FaPinterestSquare } from "react-icons/fa";
 
 export default function Footer() {
     return (
