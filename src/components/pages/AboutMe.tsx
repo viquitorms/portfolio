@@ -31,7 +31,7 @@ const ProfileCard = ({ name, title, avatar }: ProfileData) => {
 	}
 
 	return (
-		<div className="bg-base-200 rounded-3xl p-8 flex flex-col items-center text-center">
+		<div className="rounded-3xl p-8 flex flex-col items-center text-center">
 			<div className="avatar mb-6">
 				<div className="w-52 h-72 lg:w-72 lg:h-92 rounded-3xl">
 					<img src={avatar} alt={name} className="object-cover" />
@@ -132,7 +132,7 @@ const Resume = () => {
 	const profileData = {
 		name: "Victor Magalhães",
 		title: "Full Stack Developer & Graphic Designer",
-		avatar: "src/assets/images/personal/foto-victor.jpg",
+		avatar: "/portfolio/src/assets/images/personal/foto-victor.jpg",
 		contact: {
 			email: "victormsouza@protonmail.com",
 		}
@@ -183,8 +183,8 @@ const Resume = () => {
 	return (
 		<div className="min-h-screen">
 			<div className="max-w-7xl mx-auto">
-				<div className=" flex flex-col bg-base-100 rounded-3xl gap-5">
-					<div className="grid grid-cols-1 lg:grid-cols-12 gap-5">
+				<div className=" flex flex-col rounded-3xl">
+					<div className="grid grid-cols-1 lg:grid-cols-12">
 
 						{/* Profile Section */}
 						<div className="lg:col-span-4">
@@ -193,7 +193,7 @@ const Resume = () => {
 
 						{/* Experience Section */}
 						<div className="lg:col-span-8">
-							<div className="bg-base-200 rounded-3xl p-8 h-full">
+							<div className="rounded-3xl p-8 h-full">
 								<h2 className="text-2xl font-bold text-base-content mb-8">
 									Who am I?
 								</h2>
@@ -211,7 +211,7 @@ const Resume = () => {
 					<div className="grid grid-cols-1">
 
 						<div className="col-span-12">
-							<div className="bg-base-200 rounded-3xl p-8 h-full">
+							<div className="rounded-3xl p-8 h-full">
 								<h2 className="text-2xl font-bold text-base-content mb-8">
 									Work Experience
 								</h2>

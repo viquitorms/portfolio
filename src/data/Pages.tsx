@@ -6,7 +6,7 @@ export const Pages = [
     },
     {
         name: "About me",
-        href: "/aboutme",
+        href: "/portfolio/aboutme",
         target: "_self"
     },
     {

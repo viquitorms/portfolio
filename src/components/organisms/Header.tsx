@@ -12,7 +12,7 @@ export default function Header() {
             <div>
                 <a className="flex flex-row items-center text-xl font-bold gap-2 cursor-pointer" href="/">
                     <img
-                        src="/src/assets/images/personal/avatar.png"
+                        src="/portfolio/src/assets/images/personal/avatar.png"
                         className="max-w-10 rounded-full"
                     />
                     Victor Magalhães
