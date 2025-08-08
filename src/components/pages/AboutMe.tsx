@@ -1,3 +1,5 @@
+import VictorPicture from "../../assets/images/personal/foto-victor.jpg"
+
 // types/index.ts
 interface ContactInfo {
 	email: string;
@@ -132,7 +134,7 @@ const Resume = () => {
 	const profileData = {
 		name: "Victor Magalhães",
 		title: "Full Stack Developer & Graphic Designer",
-		avatar: "/portfolio/src/assets/images/personal/foto-victor.jpg",
+		avatar: VictorPicture,
 		contact: {
 			email: "victormsouza@protonmail.com",
 		}
