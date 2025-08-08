@@ -1,12 +1,12 @@
 export const Pages = [
     {
         name: "Home",
-        href: "/portfolio",
+        href: "/",
         target: "_self"
     },
     {
         name: "About me",
-        href: "/portfolio/aboutme",
+        href: "/aboutme",
         target: "_self"
     },
     {
