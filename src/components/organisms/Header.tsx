@@ -1,6 +1,7 @@
 import { IoMdMenu } from "react-icons/io";
 import { Pages } from "../../data/Pages.tsx";
 import { useMediaQuery } from 'react-responsive'
+import Avatar from "../../assets/images/personal/avatar.png"
 
 export default function Header() {
 
@@ -12,7 +13,7 @@ export default function Header() {
             <div>
                 <a className="flex flex-row items-center text-xl font-bold gap-2 cursor-pointer" href="/">
                     <img
-                        src="/portfolio/src/assets/images/personal/avatar.png"
+                        src={Avatar}
                         className="max-w-10 rounded-full"
                     />
                     Victor Magalhães
