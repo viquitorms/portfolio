@@ -18,7 +18,7 @@ export default function ProjectsBlock() {
                 <p>These are projects are some of my skills really applied. Some of them area college projects, real projects to clients and personal projects. You can click on them to take a look to details.</p>
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-5 justify-center">
+            <div className="grid grid-cols-1 md:grid-cols-3 xl:grid-cols-3 gap-5 justify-center">
                 {
                     Modules.map((module) => (
                         <div className="card w-full md:w-70 xl:w-90 py-5 border-1 border-base-content/50 cursor-pointer hover:transform-border hover:border-primary" onClick={(e) => handleProjectClick(e, module.href)}>
